@@ -1,0 +1,103 @@
+name: hermine.oberbrunner
+description: Synergized
+version: 0.0.1
+author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: hermineoberbrunner
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2024-11-22 23:02:40'
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: null
+    author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:02:40'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/P2:
+    name: P2
+    description: null
+    author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:02:40'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/P3:
+    name: P3
+    description: null
+    author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:02:40'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/D1:
+    name: D1
+    description: ''
+    author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+    createdAt: '2024-11-22 23:02:40'
+    mode: batch
+    physicalDatasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-11-22 23:02:40'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs:
+  subgraphs/S1:
+    name: S1
+    description: null
+    author: cm4vlykj.kg9ggrwc@buaqu4v5.com
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-11-22 23:02:40'
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-11-22T23:02:40.536082Z'
+  name: plibMaven
+  version: 8.6.0-SNAPSHOT
+  id: '341611118'
+  createdAt: '2024-11-22T23:02:40.536082Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
